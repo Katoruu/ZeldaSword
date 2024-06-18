@@ -35,6 +35,9 @@
         },
         {
             "m_Id": "130994fa54a3486dacf33287c0070f7f"
+        },
+        {
+            "m_Id": "1a54ccadbeb24582916bebfe304798fb"
         }
     ],
     "m_Keywords": [],
@@ -224,6 +227,9 @@
         },
         {
             "m_Id": "62fcc88d89804111a64be516d1d97be8"
+        },
+        {
+            "m_Id": "c2254b619e704223b4a32de0a695873e"
         }
     ],
     "m_GroupDatas": [
@@ -915,6 +921,20 @@
                     "m_Id": "40e776169a3e4e0da9555aa384273d24"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "c2254b619e704223b4a32de0a695873e"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "7b1ae726ecb84936bbd20cc8aeba5648"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -2006,6 +2026,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "1a54ccadbeb24582916bebfe304798fb",
+    "m_Guid": {
+        "m_GuidSerialized": "cc69b2e3-f4b8-476e-a1bb-55613c454ef2"
+    },
+    "m_Name": "DivideSpeed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "DivideSpeed",
+    "m_DefaultReferenceName": "_DivideSpeed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 90.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "1b28ac25f8fc4f4d94ff51874d3f3b29",
@@ -3087,7 +3135,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 100.0,
+        "x": 98.4000015258789,
         "y": 2.0,
         "z": 2.0,
         "w": 2.0
@@ -4611,6 +4659,9 @@
         },
         {
             "m_Id": "130994fa54a3486dacf33287c0070f7f"
+        },
+        {
+            "m_Id": "1a54ccadbeb24582916bebfe304798fb"
         }
     ]
 }
@@ -5849,6 +5900,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "b0d545941d0147c0846e1085abed9bfc",
+    "m_Id": 0,
+    "m_DisplayName": "DivideSpeed",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b108224ec59742428543b6de20c82c66",
     "m_Id": 7,
     "m_DisplayName": "A",
@@ -6338,6 +6404,42 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "c2254b619e704223b4a32de0a695873e",
+    "m_Group": {
+        "m_Id": "30789cefdffc4976b8d35bdeda1f9237"
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 2666.000244140625,
+            "y": -522.0000610351563,
+            "width": 141.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b0d545941d0147c0846e1085abed9bfc"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "1a54ccadbeb24582916bebfe304798fb"
     }
 }
 
